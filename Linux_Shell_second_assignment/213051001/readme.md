@@ -1,6 +1,13 @@
 ### Roll no: 213051001
+### Name: Sagar Poudel.
 
-### Git username: https://github.com/ragasagar/IITB_Software_Lab_Cs699/tree/Assigment2/q2
+### Git username: 
+
+https://github.com/ragasagar/IITB_Software_Lab_Cs699/tree/Assigment2/q2
+### username: 
+ragasagar
+### Github with auto grader: 
+https://github.com/CS699-IITB-Autumn-2021/lab2-q2-math-using-bash-ragasagar
 
 ### References:
 1. https://askubuntu.com/questions/817452/how-to-change-the-display-name-on-the-terminal
@@ -12,3 +19,5 @@
 1. https://man7.org/linux/man-pages/man1/awk.1p.html
 
 1. https://www.geeksforgeeks.org/paste-command-in-linux-with-examples/
+
+1. https://www.hostinger.com/tutorials/vps/how-to-check-and-manage-disk-space-via-terminal

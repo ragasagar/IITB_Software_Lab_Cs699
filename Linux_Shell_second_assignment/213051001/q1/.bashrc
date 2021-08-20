@@ -118,7 +118,8 @@ fi
 
 
 # bash script for assignment
-alias space='df '
+alias space='du -ah --max-depth=1 '
+
 export PS1='
                     ███████╗ █████╗  ██████╗  █████╗ ██████╗ 
                     ██╔════╝██╔══██╗██╔════╝ ██╔══██╗██╔══██╗

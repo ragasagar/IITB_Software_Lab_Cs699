@@ -1,0 +1,51 @@
+ git add -A
+ git add _A
+ git branch
+ git branch -B decs_assignment
+ git branch -b feature/Desc_assignment1
+ git branch -D Assigment2/q2
+ git checkout -b Assigment2/q2
+ git checkout -b assignemnt/decs-1
+ git checkout -b feature/assignment
+ git checkout branch -b feature/Desc_assignment1
+ git checkout lab2_q3.sh
+ git checkout sh.c
+ git clone https://github.com/CS699-IITB-Autumn-2021/lab2-q2-math-using-bash-ragasagar.git
+ git clone https://github.com/CS699-IITB-Autumn-2021/lab2-q2-math-using-bash-sagarpoudel2052.git
+ git clone https://github.com/CS699-IITB-Autumn-2021/lab2-q2-math-using-bash-<username>.git
+ git clone https://github.com/mit-pdos/xv6-public.git
+ git commit -m"Added code for system call"
+ git commit -m"Added comments"
+ git commit -m"feat: changes after"
+ git commit -m"feat: Custom shell"
+ git commit -m"initial commit"
+ git commit -m"Initial commit"
+ git commit -m"solved 2nd questionon"
+ git commit -m"Solved And and Or Problem"
+ git commit -m"Solved q2"
+ git diff
+ git init
+ git inti
+ git log
+ git origin
+ git pull
+ git pull orgin master
+ git pull origin develop
+ git pull origin main
+ git push origin assignemnt/decs-1
+ git push origin Assignment2/q2
+ git push origin assignment2/shell_programming
+ git push origin feature/assignment
+ git push origin main
+ git push origin master
+ git push orign Assignment2/q2
+ git push orign feature/assignment
+ git remote
+ git remote add init https://github.com/ragasagar/xv6Os.git
+ git remote add origin https://github.com/ragasagar/IITB_Software_Lab_Cs699.git
+ git remote add origin https://github.com/ragasagar/My-WebPage.git
+ git remote add origin https://github.com/ragasagar/xv6Os.git
+ git remote set-url orgin https://github.com/ragasagar/xv6Os.git
+ git remote set-url origin https://github.com/ragasagar/xv6Os.git
+ git remote set-url orIgin https://github.com/ragasagar/xv6Os.git
+ git status

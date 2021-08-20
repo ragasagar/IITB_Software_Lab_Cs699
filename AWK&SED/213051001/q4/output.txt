@@ -1,0 +1,775 @@
+ vi Makefile
+ clea
+ clear
+ code Makefile
+ clear
+ clear
+ ls
+ make qemu-nox
+ clear
+ make qemu
+ make qemu-nox-gdb
+ clear
+ cat .
+ cat *
+ clear
+ clear
+ cd ..
+ y
+ clear
+ ls
+ clear
+ clear
+ make
+ make qemu-nox-gdb
+ clear
+ shutdown 20s
+ shutdown
+ shutdown -c
+ clear
+ shutdown
+ clear
+ cd SageProduct/
+ cd SageEureka/
+ clear
+ gradle bootRun
+ gcc
+ clear
+ gcc
+ clear
+ clear
+ code test.c
+ gcc test.c
+ gcc test.c testy
+ gcc test.c test
+ gcc test.c -0 test
+ gcc test.c -o test
+ ls
+ clear
+ ls
+ ckear
+ clear
+ cd
+ ls
+ clear
+ ls
+ clear
+ cd ..
+ ckear
+ clear
+ ls
+ cd sage-crm/ls
+ cd sage-crm/
+ ls
+ ls
+ cd sage-crm/
+ ls
+ cd Downloads/
+ cd
+ cd XV6/
+ ls
+ ls
+ code syscall.h
+ clear
+ code defs.h
+ code user.h
+ clear
+ code usys.h
+ code usys.s
+ code usys.S
+ code syscall.c
+ code helloworld.c
+ code Makefile
+ clear
+ ls
+ Make
+ make
+ code main.c
+ clea
+ clear
+ history
+ clear
+ make
+ sudo make qemu
+ code vm.c
+ clear
+ make qemu
+ make
+ clear
+ make
+ make qemu-nox
+ clear
+ ls
+ code clear
+ make
+ make qemu-nox
+ clear
+ make
+ clear
+ make
+ ls
+ ./hw.o
+ sudo ./hw.o
+ clear
+ make
+ make qemu-nox
+ clear
+ ls
+ clear
+ make
+ make qemu-nox
+ make
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ clear
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ ckear
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ ls
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ clear
+ ls
+ make
+ make qemu -nox
+ make qemu-nox
+ clear
+ ls
+ make
+ make qemu-nox
+ clera
+ clear
+ ls
+ code ls.c
+ make
+ make qemu-nox
+ make
+ clear
+ make qemu-nox
+ make
+ make qemu-nox
+ ls
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ exit
+ clear
+ cd ..
+ ls
+ ls
+ ls
+ ls
+ clear
+ make
+ cd XV6/
+ ls
+ ls
+ clear
+ code .
+ make
+ clear
+ make q
+ make quem-nox
+ ls
+ clear
+ make qeum
+ make
+ make qeum
+ history
+ make qemu
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ clear
+ make
+ [A
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ clear
+ clear
+ ls
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ exit
+ make
+ make qemu-nox
+ exit
+ make
+ make qemu-nox
+ clear
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ exit
+ make
+ ake
+ make
+ make qemu-nox
+ make
+ clear
+ code .
+ code .
+ code .
+ clear
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-no
+ make qemu-nox
+ ks
+ ls
+ cd 213051001/
+ ls
+ ls
+ ssh username@cse.iitb.ac.in
+ clear
+ ssh cse@iitb.ac.in
+ cd ..
+ tar -cvzf 213051001.tar.gz 213051001
+ clear
+ cd 213051001
+ cd
+ ls
+ cd ..
+ ls
+ cd sage-crm/
+ ls
+ cd sage-crm/
+ ls
+ cd
+ cd SageProduct/SageCommunication/
+ ls
+ clear
+ code .
+ cd Documents/IITB/Assignments/CS699/WebPage-FirstAssignment/213051001
+ ls
+ code .
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make qemu-nox
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu
+ mkae
+ make
+ make qemu
+ make
+ make qemu-nox
+ make
+ make qemu
+ make
+ make qemu
+ clear
+ make
+ make qemu
+ make
+ make qemu
+ clear
+ ls
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ cquit
+ make
+ make qemu
+ make
+ make qwmu
+ make qemu
+ make
+ make qemu
+ c
+ make
+ make qemu
+ make
+ mkae qemu
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ reboot
+ clear
+ make
+ tar -cvzf 213051001.tar.gz ./
+ ls
+ tar -cvzf 213051001.tar.gz 213051001
+ cd ..
+ tar -cvzf 213051001.tar.gz 213051001
+ ls
+ tar xvzf 213051001.tar.gz
+ ls
+ tar xvzf 213051001.tar.gz
+ tar -cvzf 213051001.tar.gz 213051001
+ clear
+ make qemu
+ cd 213051001
+ ls
+ make
+ cd ..
+ ls
+ clear
+ clear
+ source ~/.bashrc
+ clear
+ source ~/.bashrc
+ s
+ d
+ dd
+ test
+ ste
+ man
+ source ~/.bashrc
+ test
+ ls
+ test
+ cd SageProduct/SageCentralConfiguration/
+ ls
+ code .
+ clea
+ clear
+ code ~/.bashrc
+ source ~/.bashrc
+ cd ../
+ ls
+ ls -a
+ clear
+ ls
+ nano ~/.bashrc
+ source ~/.bashrc
+ clear
+ ls
+ cd q2/
+ ls
+ sh q2.sh
+ code 22.sh
+ clear
+ ls
+ cd
+ cd Documents/
+ ls
+ cd IITB/
+ ls
+ cd Assignments/
+ ls
+ cd CSc99
+ cd CS699/
+ ls
+ ls
+ cd Linux_Shell_second_assignment/
+ ls
+ cd
+ hello
+ clear
+ cd
+ ls
+ cd Documents/IITB/Assignments/
+ ls
+ cd CS699/
+ ls
+ mkdir Linux_Shell_second_assignment
+ cd Linux_Shell_second_assignment/
+ ls
+ mkdir q1
+ ls
+ cd ~/.bashrc .
+ ls
+ cd q1/
+ ls
+ ls
+ ls
+ ls
+ ls
+ cear
+ clear
+ clear
+ ls
+ code .bashrc
+ ls -a
+ cd Xv
+ cd 213051001/q2/
+ ls
+ ls
+ sh lab2_q2.sh 1 2 3 5
+ make
+ sh lab2_q2.sh 1 2 3 5
+ sh lab2_q2.sh 1 2 3 4 5
+ sh lab2_q2.sh 1 2 3 4d 5
+ sh lab2_q2.sh 1 2 3 4 5
+ code ~/.bashrc
+ clear
+ ls
+ cd 213051001/
+ cd
+ ls
+ cd 213051001/
+ ls
+ cd 213051001/q3/
+ ls
+ cat files/
+ ls
+ cd files/
+ ls
+ cd ..
+ cd q3
+ ls
+ ls
+ ls -r
+ ls -a
+ ls -lt
+ clear
+ cd 213051001/q3
+ clear
+ clear
+ cd ..
+ cd q1/
+ code .bashrc
+ clear
+ ls
+ cd ../
+ cd q3/
+ ls
+ cd 213051001/
+ cd q3/
+ clear
+ code ~/.bashrc
+ source ~/.bashrc
+ clear
+ ls
+ clear
+ ls
+ ls
+ cd lab2-q2-math-using-bash-ragasagar/
+ ls
+ code .
+ clea
+ clear
+ ls
+ cd SageProduct/
+ ls
+ ls
+ clear
+ ls
+ ls -a
+ cd Linux_Shell_second_assignment/
+ ls
+ cd 213051001/
+ ls
+ cd ..
+ ls
+ ls
+ man sort
+ man find
+ cd
+ cd SageProduct/
+ cd SageEureka/
+ ls
+ gradle bootRun
+ cd XV6/
+ ls
+ clear
+ make
+ make qemu
+ mkae
+ make qemu
+ make
+ make qemu
+ make qmeu
+ make qemu
+ make
+ make qemu
+ make
+ make qemu-nox
+ make
+ make qemu
+ make
+ make qemu
+ make
+ make qemu
+ make qemu-nox
+ make
+ make qemu
+ make
+ make qemu
+ make make-qemu
+ make qemu-nox
+ make
+ make qemu-nox
+ make qemu
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu
+ make qemu-nox
+ make qemu
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ make qemu-nox
+ clear
+ make qemu-nox
+ clear
+ make qemu-nox
+ clear
+ make qemu-nox
+ clear
+ make qemu-nox
+ ls
+ clear
+ make qemu-nox
+ clear
+ make qemu-nox
+ clear
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-noz
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ cquit
+ quit
+ make qemu-nox
+ make
+ make qemu-nox
+ make qemu
+ make
+ make qemu
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ ls
+ clear
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ mavke
+ make
+ make qemu-nox
+ echo < README
+ make qemu-nox
+ source ~/.bashrc
+ make qemu
+ make qemu-nox
+ make qemu
+ cd 213051001/q3/
+ ls
+ cd ../../
+ tar cvz 213051001/ 213051001
+ cd 213051001/
+ tar -cvzf <roll_number>.tar.gz <roll_number>
+ tar -cvz 213051001.tar.gz 213051001
+ cd ..
+ tar -cvz 213051001.tar.gz 213051001
+ tar -cvzf 213051001.tar.gz 213051001
+ rm -r 213051001.tar.gz
+ tar -cvzf 213051001.tar.gz 213051001
+ clear
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ clear
+ make qemu-nox
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ ls
+ make qemu-nox
+ clear
+ make
+ make qemu-nox
+ ls
+ cat README
+ make qemu-nox
+ cat README
+ make qemu-nox
+ nake
+ make
+ make qemu-nox
+ quit
+ make qemu-nox
+ clear
+ make qemu-nox
+ make
+ make qemu-nox
+ exit
+ make clean
+ ohmyzsh
+ cd XV6/
+ ls
+ make
+ make qemu-nox
+ make
+ make qemu-nox
+ cd ..
+ ls
+ rm 213051001_assign2.tar.gz
+ mkae
+ make
+ make
+ make clean
+ cd ..
+ make
+ make qemu-nox
+ cd..
+ cd ..
+ ls
+ rm 213051001_assign2.tar.gz
+ make clean
+ cd ..
+ rm 213051001_assign2.tar.gz
+ make
+ make qemu-nox
+ clear
+ cd q4
+ ls
+ cd 213051001/
+ cd q4/
+ ./q4.sh
+ sudo chmod 777 q4.sh
+ ./q4.sh
+ clear
+ sh q4.sh
+ ./q4.sh
+ sh q4.sh
+ ./q4.sh
+ sh q4.sh
+ ./q4.sh
+ cat < q4.sh
+ ./q4.sh
