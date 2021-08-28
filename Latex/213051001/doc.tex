@@ -1,0 +1,372 @@
+\documentclass[12pt]{article}
+\title{ \textbf {Software Lab: OutLab\\ \LaTeX{}}}
+
+\author {
+    Name: Sagar Poudel\\
+    Roll no: 213051001
+}
+\usepackage[english]{babel}
+\usepackage[papersize={8.5in,11in},bottom=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{titling}
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+\usepackage{amsmath, nccmath}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[linesnumbered, boxed]{algorithm2e}
+\usepackage[linguistics]{forest}
+\usepackage{epigraph} 
+\usepackage{enumerate}% http://ctan.org/pkg/enumerate
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\usepackage{fancyvrb}
+\UseRawInputEncoding
+
+\DefineVerbatimEnvironment{verbatim}{Verbatim}{xleftmargin=.4in}
+
+\begin{document}
+\begin{titlingpage}
+    \maketitle
+\end{titlingpage}
+{
+\hypersetup{linkcolor=black}
+\tableofcontents
+}
+\newpage
+\begin{flushleft}
+    \textbf{!!! Yo Janta, Welcome to the CS699 Software Foundation Lab course !!!}\newline
+    You may be wondering how CS699 Assignments could be called as chilled , believe me guys this Lab will going to be chill. I am currently pursuing Mtech in Computer Science Department.
+\end{flushleft}
+\vspace{4pt}
+\hrule
+\vspace{4pt}
+\section{Some History}
+
+I am ancient creature dwelling on this planet now referred to as ”Earth”. I have been
+existing since the past 150393894.5 years. Do you see the use of a package above in the
+number mention in the document. I have used something to enunciate the numbers in
+a fashion such as a mathematical formulae.
+
+Let us all try to replicate the text provided in this document.\newline
+\indent \emph{P.S.: Please note that I am following the Section Title \textbf{Noun Capitalization} in
+    the document. This would be followed in the rest of the document, henceforth.}
+
+
+\section{Replication of this must be produced}
+
+\textbf{\LaTeX} is a word processor and document markup language. It is distinguished from typical word processors such as Microsoft Word and Apple Pages in that the writer uses plain text as opposed to formatted text, relying on markup tagging conventions to define the general structure of a document (such as article, book, and letter), to stylise text throughout a document (such as \textbf{bold} and \emph{italic}),and to add citations
+and cross-referencing. A \textbf{\TeX} distribution such as \textbf{TeXlive} or \textbf{MikTeX} is used to produce an output file (such as PDF or DVI) suitable for printing or digital distribution.
+\newline \par
+\textbf{\LaTeX} is intended to provide a high-level language that accesses the power of \textbf{\TeX}.
+\LaTeX comprises a collection of \TeX{} macros and a program to process \textbf{\LaTeX} documents.
+Because the plain \textbf{\TeX} formatting commands are elementary, it provides authors with ready-made commands for formatting and layout requirements such as chapter headings, footnotes, cross-references and bibliographies.
+\newline \par
+\textbf{\LaTeX} was originally written in the early 1980s by Leslie Lamport at SRI International. The current version is \LaTeX2e. \textbf{\LaTeX} is free software and is distributed under the \textbf{\LaTeX} Project Public License (LPPL) (\textbf{Source Wikipedia}).
+
+\newpage
+\section{Opening and Compiling \TeX{} Document}
+First create a \textbf{.tex} file using text editor such as \textbf{Vi} or {\bf Gedit} or {\bf Kile}.
+
+\section{Starting and Ending}
+
+A minimal input file looks like following\\
+\verb|\documentclass{class}|\\
+\verb|\begin{document}|\\
+\verb|your text...|\\
+\verb|\end{document}|\\
+where the class is a valid document class for {\bf \LaTeX}
+
+\subsection{Compiling the \LaTeX{} Document}
+
+We open the terminal and go to the directory in which our .tex file is stored and the we execute the command
+\newline \par
+{\bf pdflatex example.tex}
+
+\section{Section}
+
+Sectioning commands provide the means to structure your text into units:\\
+\newline
+\verb|\part|\\
+\newline
+\verb|\chapter|\\
+\newline
+\verb|(report and book class only)|\\
+\newline
+\verb|\section|\\
+\newline
+\verb|\subsection|\\
+\newline
+\verb|\subsubsection|\\
+\newline
+\verb|\paragraph|\\
+\newline
+\verb|\subparagraph|\\
+\newline
+
+{\huge I think we have replicated the document enough. Let us just concentrate on learning features of the document provided to us. We have successfully demonstrated the the features such as Sections, Subsections, Labelling, Bold, Italics, Tabbing, Title Page, Huge, Large, math symbols. Typing in a \LaTeX document to type in { \bf \LaTeX } code.}
+
+\section{Do this}
+
+\begin{itemize}
+    \item  {\LaTeX} typesets a file of text using the TEX program,
+    \item {\bf Have used renewcommand for the bullets to be bigger.}
+\end{itemize}
+\begin{enumerate}[I.]
+    \item  {\LaTeX} typesets a file of text using the TEX program.
+    \item A TEX is widely used in academia for the communication and publication of scientific documents in many fields, including mathematics, physics, computer science,
+          statistics, economics and political science.
+\end{enumerate}
+\begin{enumerate}[\hspace{.2cm}(a)]
+    \item  {\LaTeX} typesets a file of text using the TEX program.
+    \item {\LaTeX}is widely used in academia for the communication and publication of scientific documents in many fields, including mathematics, physics, computer science,
+          statistics, economics and political science.
+\end{enumerate}
+\newpage
+\section{My classroom learning}
+Dear Diary,\\
+\indent It was a wonderful experience for me to lot important things in the class. I would
+like to share some the important things.
+
+\subsection{Math class}
+
+The equation of Latent Dirichlet allocation is very helpful in natural language processing for modelling a generative statistical model. The equation of the model is shown
+below :-
+\begin{equation}
+    p(\beta, \theta, z, w|\alpha, \eta) =
+    \prod_{i=1}^{K} p(\beta_{i}|\eta)
+    \prod_{d=1}^{D} p(\theta_{d},\alpha)
+    (\prod_{n=1}^{N} p(z_{d,n}|\theta_{d})p(w_{d,n}|\beta_{1:K}, z_{d,n}))
+\end{equation}
+
+Also the formula of cumulative distribution function in case of uniform probability
+measure is :-
+
+\begin{equation}
+    F(x) = \begin{cases}
+        0,               & \text{if}\ x < a           \\
+        \frac{x-a}{b-a}, & \text{if}\ a \leq x \leq b \\
+        1,               & \text{if} x>b
+    \end{cases}
+\end{equation}
+
+\subsection{Equation Array}
+
+\begin{align}
+    \cos^{3}\theta + \sin^{3}\theta & = (\cos\theta + sin\theta)(\cos2\theta - \cos\theta \sin\theta) \\
+                                    & = (\cos\theta + \sin\theta)(1 - \cos\theta sin\theta)           \\
+                                    & = (1/2)(\cos\theta + \sin\theta)(2-sin(2\theta))
+\end{align}
+
+
+
+\subsection{Prepositional Formulae using Various Operators}
+
+\begin{fleqn}[\parindent]
+    $(\exists x)(\varphi(x) \wedge \psi (x)) \longleftrightarrow ((\exists x) \varphi(x) \wedge (\exists x) \psi(x))$ \\
+    \\
+    $((\forall x)(\varphi(x) \wedge (\forall x)\psi (x)) \longrightarrow ((\forall x) (\varphi(x) \wedge \psi x))$
+\end{fleqn}
+
+
+\subsection{Alphabets}
+
+\begin{center}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Binary Operators:   & $\times \oplus \otimes \cup \cap $          \\[2ex]
+        \hline
+        Relation Operators: & $ \subset \supset \subseteq \supseteq < > $ \\[2ex]
+        \hline
+        Others::            & $ \int \oint \sum \prod $                   \\[2ex]
+        \hline
+    \end{tabular}
+\end{center}
+\subsection{Mathematical Formulas}
+
+\begin{enumerate}[(a)]
+    \item
+          $\begin{aligned}
+                  \int_a^b K^3 d K = \frac{1}{4}\textbf{K}^4 \mid_a^b
+              \end{aligned}$
+    \item
+          $\begin{aligned}
+                  \frac{\pi}{4} =  4 \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)5^{2n+1}} -  \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)239^{2n+1}}
+              \end{aligned}$
+\end{enumerate}
+
+\section{Quotation and Citation}
+
+\subsection{Quotation}
+The margins of the quotation environment are indented on both the left and the right.
+The text is justified at both margins. Leaving a blank line between text produces a
+new paragraph.
+\newline
+
+\hfill
+\begin{minipage}{\dimexpr\textwidth-1.8cm}
+    “Unlike the quote environment, each paragraph is indented normally. It’s
+    important to remark that even if you are typing quotes on English there
+    are different quotation marks used in English (UK) and English (US)”.
+\end{minipage}
+
+\subsection{Citation}
+
+{\bf Congratulations you are almost midway!!!}So relax and enjoy the not so mainstream music straight out of my playlist. Safarnama \textsuperscript{[1]} is one of the masterpiece by THE A.R.Rahman. The nights \textsuperscript{[2]} is a song which will make you rethink about how to enjoy the life you live. New rules \textsuperscript{[3]} , This is a flute duet and one of the flute cover has to be here to justify my love for flute :D (that’s laughing emo OKKKKKK). Lamha \textsuperscript{[4]} is one of the song from arijit singh’s debut musical album as composer. Ki banu duniya da\textsuperscript{[5]}is by the legend Gurdas maan, and I highly recommond you to listen this song and those who do not understand punjabi, just turn the captions on... I am sure you’ll like the depth of the lyrics. Now continue with your assignment but with a smile on :).
+
+
+\newpage
+
+
+\section{Algorithm and Pseudo Code}
+
+
+\subsection{Listing}
+\textcolor{green}{//Swap two numbers}
+\begin{lstlisting}[language=C]
+#include<stdio.h>
+int main()
+{   int a =10 , b=20;
+    printf(a,b);
+    a=a+b; b=a-b; a=a−b;
+    printf(a,b);
+    return 0;
+}
+\end{lstlisting}
+
+
+\subsection{Verbatim}
+\begin{verbatim}
+#include<stdio.h>
+int main()
+{   int a=10, b=20;
+    printf("Before swap a=%d b=%d",a,b);
+    a=a+b; b=a-b; a=a-b;
+    printf("\nAfter swap a=%d b=%d",a,b);
+    return 0;
+}
+\end{verbatim}
+
+\subsection{Algorithm}
+
+\begin{algorithm}[H]
+    \SetKwInOut{Input}{Input}
+    \SetKwInOut{Output}{Output}
+
+    \Input{A graph and starting root vertex of the Graph}
+    \Output{All vertices reachable from root are labeled as explored}
+    \For{each node n in Graph:}{
+        n.distance = INFINITY
+    }
+    \hspace{.5em}Q.\textbf{enqueue}(root) \\
+    \While{Q is not empty:}{
+    \For{each node n that is adjacent to current:}{
+    \If{n.\textbf{distance} == {\ INFINITY}}{
+    n.\textbf{distance}= current.\textbf{distance} + 1 n..\textbf{parent} = current}
+    }
+    }
+    \caption{Breadth First Search Algo}
+\end{algorithm}
+
+
+\section{Flow charts}
+
+\subsection{Tree}
+\begin{center}
+    \begin{forest}
+        [S
+                [S
+                        [id]
+                        [{=}]
+                        [E
+                                [E
+                                        [id]
+                                ]
+                                [{*}]
+                                [E
+                                        [id]
+                                ]
+                        ]
+                ]
+                [{;} ,before computing xy={s/.average={s}{siblings}}]
+                [S
+                        [id]
+                        [{=}]
+                        [E]
+                ]
+        ]
+    \end{forest}
+\end{center}
+\subsection{How is the day?}
+
+\tikzstyle{startstop} = [ellipse, minimum width=1cm, minimum height=.5cm,text centered, draw=black, fill=yellow!30]
+\tikzstyle{process} = [rectangle, rounded corners, minimum width=1.1cm, text centered, text width=3cm, minimum height=1.8cm,text centered, draw=black, fill=red!20]
+\tikzstyle{decision} = [diamond, minimum width=.8cm, minimum height=.8cm,text centered, text width=1.6cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [->,>=stealth]
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[node distance=2cm]
+        \node (start) [startstop] {Hello!!!};
+        \node (p1) [process, below of=start] {If I’ll ask you something, reply with ”Good”};
+        \node (dec1)[decision, below of=p1, yshift=-1.3cm]{How is the day?};
+        \node (stop)[startstop, below of=dec1, yshift=-1.2cm] {Okayyy then byeee!};
+        \node (p2) [process, left of=dec1, left=1.5cm] {Whatt??\\ Let's repeat};
+
+
+        \draw [arrow] (start) -- (p1);
+        \draw [arrow] (p1) -- (dec1);
+        \draw [arrow] (dec1) -- node[anchor=west] {Good}(stop);
+        \draw [arrow] (dec1) -- node[anchor=north] {Not good}(p2);
+        \draw [arrow] (p2) |- (p1);
+    \end{tikzpicture}
+    \caption{How is the day?}
+\end{figure}
+
+
+\section{Exotic Features}
+
+\subsection{Minipage}
+\fbox{
+    \begin{minipage}{20em}
+
+        \emph{\LaTeX{} is widely used in academia for the communication and publication of scientific documents in many fields, including mathematics, statistics, computer science, engineering,
+            physics, economics, linguistics, quantitative
+            psychology, philosophy, and political science.
+            It also has a prominent role in the preparation
+            and publication of books and articles that contain complex multilingual materials, such as
+            Sanskrit and Greek. \LaTeX{} uses the \TeX{}  type setting program for formatting its output, and
+            is itself written in the \TeX{} macro language.}
+
+    \end{minipage}}
+
+\subsection{Epigraph Style}
+
+\epigraph{I hope you enjoyed working on this
+    assignment.}{\textit{Your TA \\ CS699}}
+
+\section{Bibliography}
+\let\oldbibliography\thebibliography
+\renewcommand{\thebibliography}[1]{%
+    \oldbibliography{#1}%
+    \setlength{\itemsep}{0pt}%
+
+}
+\begin{thebibliography}{99}
+    \small
+    \bibliographystyle{ieeetr}
+    \bibitem{}
+    https://www.youtube.com/watch?v=sOhESxhibAM. “Safarnama”. In: (Oct. 2015).
+    \bibitem
+    https://www.youtube.com/watch?v=UtF6Jej8yb4. “Avicii - The Nights”. In: (Dec.
+    2014).
+    \bibitem{}
+    https://www.youtube.com/watch?v=Q5RC NGWfAU. “New Rules - Dua Lipa
+    Flute Cover”. In: (Oct. 2017).
+    \bibitem{}
+    https://www.youtube.com/watch?v=jOsEXbnwzY4. “Lamha”. In: (Mar. 2021).
+    \bibitem{}
+    https://www.youtube.com/watch?v=pjQyBF2gwjQ. “Ki Banu Duniya Da - Gurdas Maan”. In: (Mar. 2021).
+\end{thebibliography}
+\end{document}

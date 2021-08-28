@@ -1,0 +1,10 @@
+https://tex.stackexchange.com/questions/54055/using-lower-case-roman-numerals-in-enumerate-lists
+https://tex.stackexchange.com/questions/301672/making-the-product-operator-pi-caps-with-the-extremes-above-and-below-the-
+https://tex.stackexchange.com/questions/9065/large-braces-for-specifying-values-of-variables-by-condition
+https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf
+https://www.overleaf.com/learn/latex/Questions/How_do_I_change_column_or_row_separation_in_LaTeX_tables%3F
+https://tex.stackexchange.com/questions/162462/how-to-center-the-table-in-latex
+https://tex.stackexchange.com/questions/31672/column-and-row-padding-in-tables
+https://tex.stackexchange.com/questions/25903/how-to-put-a-long-piece-of-text-in-a-box
+https://tex.stackexchange.com/questions/306613/how-to-change-the-color-of-only-table-of-contents-from-red-to-black
+https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf

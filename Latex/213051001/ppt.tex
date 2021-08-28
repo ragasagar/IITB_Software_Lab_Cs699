@@ -1,0 +1,130 @@
+\documentclass{beamer}
+
+\usetheme{Dresden}
+\usecolortheme{spruce}
+
+\usepackage{makecell}
+\usepackage{tikz}
+\usetikzlibrary{automata, arrows.meta, positioning}
+
+\definecolor{darkGreen}{RGB}{0,102,51}
+
+\setbeamerfont{block body}{size= \small}
+\setbeamercolor{block title}{fg=white,bg=darkGreen!100!white}
+\setbeamercolor{block body}{bg=darkGreen!70!black,bg=white!60!darkGreen}
+\setbeamercolor{block title}{fg=white,bg=darkGreen!100!white}
+\setbeamercolor{block body}{bg=darkGreen!70!black,bg=white!60!darkGreen}
+\setbeamerfont{block body}{size= \small}
+\setbeamercolor{enumerate item}{bg=black, fg=black}
+
+\title[ ]{Lab 4: CS 699 Presentation}
+\author{Sagar Poudel}
+\institute{IIT Bombay}
+\date{\today}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Topics to cover}
+    \tableofcontents
+\end{frame}
+
+\section{Paragraph}
+
+\begin{frame}{Statements}
+    
+    \begin{block}{Pumping Lemma for Regular Languages$^{1}$}
+       \emph{ $
+        \text{For any regular language L, there exists an integer n, such that for all x} \in \text{L with } |x| \geq \text{n, there exists u, v, w} \in \Sigma^{*} \text{, such that x = uvw, and }$\\
+        
+        \emph{(1)} $ \left|uv\right| \leq $ n\\
+        \emph{(2)} $\left|v\right| \geq 1 $\\
+        \emph{(3)} $\text{for all i } \geq 0; uv^iw\ \epsilon{} $ L}
+    \end{block}
+\end{frame}
+
+\section{}
+\begin{frame}
+    \frametitle{Statements}
+    \begin{block}{Pumping lemma for Regular Languages$^{1}$}
+    \emph{ $\text{For any regular language L, there exists an integer n, such that for all x} \in \text{L with } |x| \geq \text{n, there exists u, v, w} \in \Sigma^{*} \text{, such that x = uvw, and }$\\
+    
+         \emph{(1)} $ \left|uv\right| \leq $ n\\
+        \emph{(2)} $\left|v\right| \geq 1 $\\
+        \emph{(3)} $\text{for all i } \geq 0; uv^iw\ \epsilon{} $ L}
+    \end{block}
+
+    \begin{block}{Rice Theorem}
+        \textit{It states that any non trivial sementic property of a language which is required by a Turing machine is undecidable. A property P, is the language of all turing machines that satisfy that property.}
+    \end{block}
+\end{frame}
+
+\section{Column}
+
+\begin{frame}{Classification}
+
+    \begin{table}[]
+        \begin{tabular}{l l l}
+        \textbf{Grammer}& \textbf{Language}& \textbf{Automata}\\[2pt]
+        \hspace{2mm} \textcolor{blue}{1.}  RG&\hspace{2mm}\textcolor{blue}{1.}  Regular Language &\hspace{2mm}\textcolor{blue}{1.}  FA  \\
+        \hspace{2mm} \textcolor{blue}{2.}  CFG&\hspace{2mm}\textcolor{blue}{2.}  Context Free Language &\hspace{2mm}\textcolor{blue}{2.}  PDA   \\
+        \hspace{2mm} \textcolor{blue}{3.}  UG&\hspace{2mm}\textcolor{blue}{3.}  Recursively Enumerable Sets &\hspace{2mm}\textcolor{blue}{3.}  TM 
+         \end{tabular}
+    \end{table}
+\end{frame}
+
+
+\section{Flowchart}
+
+\begin{frame}{Automata}
+    \tikzstyle{states} = [state, minimum width=1cm, text centered, draw=black]
+    \begin{figure}
+        \centering
+        \begin{tikzpicture} [node distance = 2.7cm, on grid,every initial by arrow/.style={->}]
+        \node (q1) [states,accepting, initial, initial distance = 1.2cm, inner sep = 1pt, initial text=\textbf{start}]
+        {$q1$};
+        \node (q2) [states ,right = of q1] {q2};
+        \node (q3) [states ,below = of q2] {q3};
+        \node (q4) [states ,below = of q1] {q4};
+        \path [-stealth, thick]
+        (q1) edge[bend left, -Latex] node[red, pos=0.5, fill=white] {$0$}   (q2)
+        (q2) edge[bend left, -Latex] node[red, pos=0.5, fill=white] {$0$}   (q1)
+        (q1) edge[bend left, -Latex] node[red, pos=0.5, fill=white] {$1$}   (q4)
+        (q4) edge[bend left, -Latex] node[red, pos=0.5, fill=white] {$1$}   (q1)
+        (q2) edge[bend left, -Latex] node[red, pos=0.5, fill=white] {$1$}   (q3)
+        (q3) edge[bend left, -Latex] node[red, pos=0.5, fill=white] {$1$}   (q2)
+        (q4) edge[bend left, -Latex] node[red, pos=0.5, fill=white] {$0$}   (q3)
+        (q3) edge[bend left, -Latex] node[red, pos=0.5, fill=white] {$0$}   (q4);
+        \end{tikzpicture}
+        \caption{Automata accepting even 0’s and 1’s}
+    \end{figure}
+\end{frame}
+
+
+\section{Table}
+
+\begin{frame}{State Transition Table}
+    \begin{table}[]
+        \centering
+    \begin{tabular}{c c c}
+        \Xhline{4\arrayrulewidth}
+        \textbf{STATES} & \textbf{0's} & \textbf{1's}\\
+        \hline
+        \textbf{q1} &q2 & q4 \\
+        q2 & \textbf{q1} & q3   \\
+        q3 & q4 & q2\\
+        q4 & q3 & \textbf{q1} \\
+        \Xhline{4\arrayrulewidth}
+     \end{tabular}
+      \caption{State Table for above Automata}
+        \label{tab:my_label}
+    \end{table}
+\end{frame}
+
+
+\section{}
+\begin{frame}{}
+  \centering \Huge
+  {Thank You!}
+\end{frame}
+\end{document}
