@@ -6,7 +6,7 @@
     Roll no: 213051001
 }
 \usepackage[english]{babel}
-\usepackage[papersize={8.5in,11in},bottom=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage[papersize={8.5in,11in},bottom=2.8cm,marginparwidth=2cm]{geometry}
 \usepackage{titling}
 \renewcommand\maketitlehooka{\null\mbox{}\vfill}
 \renewcommand\maketitlehookd{\vfill\null}
@@ -21,6 +21,7 @@
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric, arrows}
 \usepackage{fancyvrb}
+\usepackage{dirtytalk}
 \UseRawInputEncoding
 
 \DefineVerbatimEnvironment{verbatim}{Verbatim}{xleftmargin=.4in}
@@ -38,9 +39,8 @@
     \textbf{!!! Yo Janta, Welcome to the CS699 Software Foundation Lab course !!!}\newline
     You may be wondering how CS699 Assignments could be called as chilled , believe me guys this Lab will going to be chill. I am currently pursuing Mtech in Computer Science Department.
 \end{flushleft}
-\vspace{4pt}
+\vspace{3pt}
 \hrule
-\vspace{4pt}
 \section{Some History}
 
 I am ancient creature dwelling on this planet now referred to as ”Earth”. I have been
@@ -188,7 +188,7 @@ measure is :-
 \begin{enumerate}[(a)]
     \item
           $\begin{aligned}
-                  \int_a^b K^3 d K = \frac{1}{4}\textbf{K}^4 \mid_a^b
+                  \int_a^b K^3 d K = \frac{1}{4}\textbf{K}^4 \vert_a^b
               \end{aligned}$
     \item
           $\begin{aligned}
@@ -205,15 +205,15 @@ new paragraph.
 \newline
 
 \hfill
-\begin{minipage}{\dimexpr\textwidth-1.8cm}
-    “Unlike the quote environment, each paragraph is indented normally. It’s
+\begin{minipage}{\dimexpr\textwidth-1.2cm}
+    \say{Unlike the quote environment, each paragraph is indented normally. It’s
     important to remark that even if you are typing quotes on English there
-    are different quotation marks used in English (UK) and English (US)”.
+    are different quotation marks used in English (UK) and English (US)}.
 \end{minipage}
 
 \subsection{Citation}
 
-{\bf Congratulations you are almost midway!!!}So relax and enjoy the not so mainstream music straight out of my playlist. Safarnama \textsuperscript{[1]} is one of the masterpiece by THE A.R.Rahman. The nights \textsuperscript{[2]} is a song which will make you rethink about how to enjoy the life you live. New rules \textsuperscript{[3]} , This is a flute duet and one of the flute cover has to be here to justify my love for flute :D (that’s laughing emo OKKKKKK). Lamha \textsuperscript{[4]} is one of the song from arijit singh’s debut musical album as composer. Ki banu duniya da\textsuperscript{[5]}is by the legend Gurdas maan, and I highly recommond you to listen this song and those who do not understand punjabi, just turn the captions on... I am sure you’ll like the depth of the lyrics. Now continue with your assignment but with a smile on :).
+{\bf Congratulations you are almost midway!!!} So relax and enjoy the not so mainstream music straight out of my playlist. Safarnama \textsuperscript{[1]} is one of the masterpiece by THE A.R.Rahman. The nights \textsuperscript{[2]} is a song which will make you rethink about how to enjoy the life you live. New rules \textsuperscript{[3]} , This is a flute duet and one of the flute cover has to be here to justify my love for flute :D (that’s laughing emo OKKKKKK). Lamha \textsuperscript{[4]} is one of the song from arijit singh’s debut musical album as composer. Ki banu duniya da\textsuperscript{[5]}is by the legend Gurdas maan, and I highly recommond you to listen this song and those who do not understand punjabi, just turn the captions on... I am sure you’ll like the depth of the lyrics. Now continue with your assignment but with a smile on :).
 
 
 \newpage
@@ -261,7 +261,7 @@ int main()
     }
     \hspace{.5em}Q.\textbf{enqueue}(root) \\
     \While{Q is not empty:}{
-    \For{each node n that is adjacent to current:}{
+    \For{each node n that is ad jacent to current:}{
     \If{n.\textbf{distance} == {\ INFINITY}}{
     n.\textbf{distance}= current.\textbf{distance} + 1 n..\textbf{parent} = current}
     }
@@ -309,7 +309,7 @@ int main()
     \centering
     \begin{tikzpicture}[node distance=2cm]
         \node (start) [startstop] {Hello!!!};
-        \node (p1) [process, below of=start] {If I’ll ask you something, reply with ”Good”};
+        \node (p1) [process, below of=start] {If I'll ask you something, reply with ”Good”};
         \node (dec1)[decision, below of=p1, yshift=-1.3cm]{How is the day?};
         \node (stop)[startstop, below of=dec1, yshift=-1.2cm] {Okayyy then byeee!};
         \node (p2) [process, left of=dec1, left=1.5cm] {Whatt??\\ Let's repeat};
